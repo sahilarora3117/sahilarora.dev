@@ -1,0 +1,27 @@
+---
+import Card from "./Card/index.astro";
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-6" title="About me">
+  <div class="flex flex-col gap-2">
+    <div class="text-sm font-light">
+      <p>
+        Hi, I'm Sahil, a software engineer based in India, currently working at Oracle.
+        <br />
+        My primary tools and technologies include:
+      </p>
+      <ul class="list-disc list-inside">
+        <li>C++</li>
+        <li>Python</li>
+        <li>React / Preact</li>
+        <li>Node.js</li>
+        <li>FastAPI</li>
+      </ul>
+    </div>
+    <p class="text-sm font-light">
+      I work extensively on Session Border Controllers (SBC), SIP-based real-time communication systems,
+      and large-scale C++ codebases with a strong focus on reliability, performance, and security.
+      Recently, I’ve been building Generative AI and RAG-based tools for telecom, 5G, and developer productivity.
+    </p>
+  </div>
+</Card>
